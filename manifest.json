@@ -1,0 +1,31 @@
+{
+    "name": "Postpeak",
+    "description": "Browser extension for sorting posts on imageboards by number of replies.",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "src/postpeak.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_icon": {
+            "16": "/assets/icons/postpeak_icon16x16.png",
+            "32": "/assets/icons/postpeak_icon32x32.png",
+            "48": "/assets/icons/postpeak_icon48x48.png",
+            "128": "/assets/icons/postpeak_icon128x128.png"
+        }
+    },
+    "icons": {
+        "16": "/assets/icons/postpeak_icon16x16.png",
+        "32": "/assets/icons/postpeak_icon32x32.png",
+        "48": "/assets/icons/postpeak_icon48x48.png",
+        "128": "/assets/icons/postpeak_icon128x128.png"
+    }
+}
