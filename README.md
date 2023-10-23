@@ -5,6 +5,7 @@ on top of the thread.
 #### Uploading the extension to Firefox
 
 Build the extension archive (assuming you are in the project root directory)
+or grab it from the releases.
 
 ```bash
 zip -r -FS postpeak.zip * --exclude '*.git*'
