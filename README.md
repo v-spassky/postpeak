@@ -1,6 +1,10 @@
 This is a browser extension that sorts posts in a thread on an imageboard by
-the number of replies so that you get the most interesting & engaging posts
+the number of replies so that you get the most interesting and engaging posts
 on top of the thread.
+
+*30 Mb demo gif ahead, may take a while to load. Sorry!*
+
+![demo gif](assets/postpeak-demo.gif)
 
 #### Uploading the extension to Firefox
 
